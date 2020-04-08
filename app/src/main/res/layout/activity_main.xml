@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Chronometer
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chronometer"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="#FFD000"
+        android:textStyle="bold"
+        android:layout_marginTop="102dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/start"
+        android:id="@+id/str_button"
+        android:layout_below="@+id/chronometer"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/stop"
+        android:id="@+id/stp_button"
+        android:layout_below="@+id/str_button"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/restart"
+        android:id="@+id/rs_button"
+        android:layout_below="@+id/stp_button"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/setformat"
+        android:id="@+id/sf_button"
+        android:layout_below="@+id/rs_button"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/clearformat"
+        android:id="@+id/clr_button"
+        android:layout_below="@+id/sf_button"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
